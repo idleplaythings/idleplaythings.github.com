@@ -16,8 +16,9 @@
     <div class="wrapper">
       <h2>Idle Playthings</h2>
 
-      <p>Idle Playthings a teeny tiny independent game development collective. We are currently working
-      on a simple in-browser turn-based militray strategy game.</p>
+      <p>Idle Playthings a teeny tiny independent game development collective. We are currently working on an in-browser turn-based hardcore militray strategy game.</p>
+
+      <p>Got something on your mind? Drop us a line at <a href="mailto:team@idleplaythings.com">team@idleplaythings.com</a>.</p>
 
       <nav>
         <ul><li><a href="/blog.html">Blog</a></li><li><a href="/team.html">Team</a></li></ul>
@@ -26,12 +27,12 @@
         {{ content }}
       </section>
       <footer>
-        <small>Theme based on <a href="https://github.com/orderedlist/minimal">orderedlist/minimal</a><br />Photo licensed from <a href='http://www.123rf.com/photo_11015312_detail-of-a-tank-with-chains.html'>prill</a></small>
+        <small>Theme based on <a href="https://github.com/orderedlist/minimal">orderedlist/minimal</a><br />Photos <a href='http://www.123rf.com/photo_11015312_detail-of-a-tank-with-chains.html'>prill</a>, <a href='http://www.123rf.com/photo_7504904_explosion-ww2-reenacting-kiev-ukraine.html'>sergeyussr</a></small>
       </footer>
     </div>
     <script src="/js/combined.js"></script>
     <script>
-      $.backstretch("/img/tank.jpg");
+      //$.backstretch("/img/tank.jpg");
       $('body').processTwitterLinks();
       $('nav').highlightCurrentNavItem();
     </script>
